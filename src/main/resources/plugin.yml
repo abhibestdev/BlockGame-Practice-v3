@@ -1,0 +1,5 @@
+name: Practice
+author: BlockGame Development Team
+version: 1.0
+main: us.blockgame.practice.PracticePlugin
+depend: [BGLib, Gravity]

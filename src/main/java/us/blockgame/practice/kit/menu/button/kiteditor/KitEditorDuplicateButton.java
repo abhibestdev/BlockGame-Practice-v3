@@ -1,0 +1,23 @@
+package us.blockgame.practice.kit.menu.button.kiteditor;
+
+import lombok.AllArgsConstructor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.inventory.ClickType;
+import org.bukkit.inventory.ItemStack;
+import us.blockgame.lib.menu.Button;
+
+@AllArgsConstructor
+public class KitEditorDuplicateButton extends Button {
+
+    private ItemStack itemStack;
+
+    @Override
+    public ItemStack getButtonItem(Player player) {
+        return itemStack;
+    }
+
+    @Override
+    public void clicked(Player player, ClickType clickType) {
+        player.setItemOnCursor(itemStack.clone());
+    }
+}

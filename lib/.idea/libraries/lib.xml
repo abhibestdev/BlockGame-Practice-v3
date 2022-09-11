@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BGLib-1.0-SNAPSHOT-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Gravity-1.0-SNAPSHOT-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
